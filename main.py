@@ -7,7 +7,7 @@ LAST_NAME = "Bernal"
 STUDENT_ID = "TUPM-26-1940"
 
 SEED_DIGIT = int(STUDENT_ID[-1])
-ID_SUM = sum(int(d) for d in STUDENT_ID if d.isfigit())
+ID_SUM = sum(int(d) for d in STUDENT_ID if d.isdigit())
 NAME_LENGTH = len(LAST_NAME)
 
 # Generate student-unique scores
